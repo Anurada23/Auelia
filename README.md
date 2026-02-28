@@ -36,7 +36,7 @@ Results → Snowflake Storage → n8n Follow-up Tasks
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo>
+git clone <(https://github.com/Anurada23/Finder-2.0/tree/master)>
 cd finder-ai-v2
 ```
 
