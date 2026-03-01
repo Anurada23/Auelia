@@ -8,10 +8,10 @@ class Settings(BaseSettings):
     # API Keys
     groq_api_key: str
     
-    # Snowflake Configuration
-    snowflake_account: str
-    snowflake_user: str
-    snowflake_password: str
+    # Snowflake Configuration (all optional)
+    snowflake_account: Optional[str] = None
+    snowflake_user: Optional[str] = None
+    snowflake_password: Optional[str] = None
     snowflake_database: str = "FINDER_AI"
     snowflake_schema: str = "PUBLIC"
     snowflake_warehouse: str = "COMPUTE_WH"
@@ -32,6 +32,7 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         case_sensitive = False
+        extra = "ignore"
 
 
 # Global settings instance
