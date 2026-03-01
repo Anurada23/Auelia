@@ -305,4 +305,3 @@ Anuradha Senaratne
 
 ---
 
-**Need help?** Open an issue or contact us!
