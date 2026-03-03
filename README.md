@@ -1,8 +1,8 @@
-# 🤖 Finder AI Agent v2 - Hotel Booking System
+# Auelia - Hotel Booking System
 
 A powerful multi-agent AI research assistant with **hotel booking capabilities** built with LangChain, LangGraph, Groq, FastAPI, and Snowflake.
 
-## 🌟 Features
+##  Features
 
 - **Multi-Agent Architecture**: Specialized agents working together (Planner, Researcher, Memory, Synthesizer)
 - **🏨 Hotel Booking System**: Search, compare, and book hotels using AI
@@ -13,7 +13,7 @@ A powerful multi-agent AI research assistant with **hotel booking capabilities**
 - **Modern Frontend**: Clean, responsive UI with dedicated hotel booking interface
 - **n8n Integration**: Webhook support for workflow automation
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User → Frontend → FastAPI → LangGraph Workflow
@@ -25,7 +25,7 @@ User → Frontend → FastAPI → LangGraph Workflow
 Results → Snowflake Storage → n8n Follow-up Tasks
 ```
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.10+
 - Groq API Key
